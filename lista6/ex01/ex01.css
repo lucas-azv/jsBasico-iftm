@@ -1,0 +1,63 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 90vh;
+    justify-content: center;
+    gap: 24px;
+}
+
+.alegre {
+    animation-name: moverAlegre;
+    animation-duration: 0.8s;
+    animation-iteration-count: infinite;
+}
+
+.nervoso {
+    animation-name: moverNervoso;
+    animation-duration: 0.2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes moverAlegre {
+    0% {
+        transform: translate(0px);
+    }
+
+    50% {
+        transform: translate(22px);
+    }
+
+    100% {
+        transform: translate(0px);
+    }
+}
+
+@keyframes moverNervoso {
+
+    0% {
+        transform: rotate(0deg);
+    }
+
+    25% {
+        transform: rotate(8deg);
+    }
+
+    50% {
+        transform: rotate(0deg);
+    }
+
+    75% {
+        transform: rotate(-8deg);
+    }
+
+    100% {
+        transform: rotate(0deg);
+    }
+}
