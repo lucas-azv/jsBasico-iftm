@@ -1,0 +1,90 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Chakra Petch', sans-serif;
+    font-weight: 600;
+}
+body{
+    background-color: black;
+    color: white;
+}
+
+#headerContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #4e1e50;
+    font-size: 18px;
+}
+#headerContainer div{
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    justify-content: flex-start;
+}
+select{
+    width: 84px;
+    padding: 8px 12px;
+    border-radius: 8px;
+    background-color: #193119;
+    color: #4fee4f;
+    text-align: center;
+    border: 2px solid #4fee4f;
+    outline: none;
+}
+select option{
+    text-align: center;
+}
+header label{
+    padding: 8px;
+}
+#btn-container{
+    display: flex;
+    justify-content: flex-end;
+}
+#btn-container button{
+    padding: 8px;
+    width: 84px;
+    border-radius: 8px;
+    outline: none;
+    border: 2px solid #4fee4f;
+    background-color: #193119;
+    color: #4fee4f;
+    font-size: 18px;
+    text-align: center;
+    justify-content: center;
+    transition: all 0.2s ease-in-out;
+}
+#btn-container button:hover{
+    background-color: #287228;
+    cursor: pointer;
+}
+#numero{
+    font-size: 240px;
+    text-align: center;
+}
+#numero:hover{
+    cursor: pointer;
+}
+#numContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    margin: auto;
+    height: 77.02vh;
+    margin-right: 360px;
+}
+footer div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #4e1e50;
+    color: #4fee4f;
+    font-size: 18px;
+}
