@@ -61,7 +61,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 tempo = 1000;
                 break;
             case 'dificil':
-                tempo = 500;
+                tempo = 1;
                 break;
         }
 
