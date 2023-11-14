@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    text-align: center;
+    background-image: url(bgImage.png);
+    background-size: cover;
+}
+h1{
+    margin-top: 124px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    width: 32%;
+    gap: 12px;
+    margin: auto;
+    margin-top: 36px;
+    padding: 32px;
+    background-color: rgba(198, 204, 204,0.6);;
+    border-radius: 16px;
+}
+input{
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #c6cccc;
+    outline: none;
+}
+#btnCadastrar{
+    outline: none;
+    border: none;
+    border-radius: 4px;
+    background-color: orangered;
+    color: white;
+    cursor: pointer;
+}
