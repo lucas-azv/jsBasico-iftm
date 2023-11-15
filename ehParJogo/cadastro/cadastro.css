@@ -14,7 +14,7 @@ h1{
 form{
     display: flex;
     flex-direction: column;
-    width: 32%;
+    width: 24%;
     gap: 12px;
     margin: auto;
     margin-top: 36px;
