@@ -37,14 +37,14 @@
     padding:20px;
     border-radius: 10px;
     cursor: pointer;
-    background-color: orangered;
+    background-color: #8a2ccd;
     color: white;
     border: none;
     text-shadow: 1px 1px 1px black;
     outline: none;
 }
 .panelInfo .button:hover {
-    background-color: gray;
+    background-color: #994ece;
     color:white;
 }
 
