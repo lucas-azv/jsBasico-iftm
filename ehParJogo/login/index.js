@@ -25,11 +25,11 @@ if(user == "" || pwd == "") {
             if (achou) {
                 console.log("deu certo");
                 alertWifi("Usuário logado com sucesso!", false, 0, "", 30, "");
+                    window.location.href = "../jogo.html";
             } else {
                 console.log("deu errado brother");
                 alertWifi("Usuário ou senha incorretos!", false, 0, "", 30, "");
-            }
-            
+            }       
         }
     }
 }
