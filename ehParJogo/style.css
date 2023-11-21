@@ -4,17 +4,21 @@
     box-sizing: border-box;
     font-family: 'Chakra Petch', sans-serif;
     font-weight: 600;
+    
 }
 body{
     background-color: black;
     color: white;
+
 }
 
 #headerContainer{
+    
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    height: 10vh;
     padding: 20px;
     background-color: #4e1e50;
     font-size: 18px;
@@ -62,10 +66,6 @@ header label{
     background-color: #287228;
     cursor: pointer;
 }
-#numero{
-    font-size: 240px;
-    text-align: center;
-}
 #numero:hover{
     cursor: pointer;
 }
@@ -75,15 +75,18 @@ header label{
     align-items: center;
     width: 50%;
     margin: auto;
-    height: 77.02vh;
-    margin-right: 360px;
+    height: 80vh;
+    font-size: 240px;
+    text-align: center;
+    transform: translate(-34px);
 }
 footer div{
     display: flex;
+    height: 10vh;
+    padding: 24px;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
     background-color: #4e1e50;
     color: #4fee4f;
     font-size: 18px;
