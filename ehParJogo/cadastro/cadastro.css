@@ -4,13 +4,18 @@
     box-sizing: border-box;
 }
 body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
     text-align: center;
     background-image: url(d0e0e259bf0aba4da742bedff1d4b8a5\ \(1\).gif);
     background-size: cover;
     color: white;
 }
 h1{
-    margin-top: 124px;
+    margin-top: 72px;
 }
 form{
     display: flex;
