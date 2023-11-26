@@ -20,7 +20,8 @@ h1{
 form{
     display: flex;
     flex-direction: column;
-    width: 32%;
+    width: 90%;
+    max-width: 400px;
     gap: 18px;
     margin: auto;
     margin-top: 36px;
@@ -48,6 +49,9 @@ input:focus{
 input::placeholder{
     color: white;
 }
+input:focus::placeholder {
+    color: white;
+}
 #btnCadastrar, #btnLogin{
     outline: none;
     border: none;
@@ -72,4 +76,19 @@ a{
 }
 a:visited{
     color: #8a2ccd;
+}
+
+@media (max-width: 768px) {
+    h1{
+        margin-top: 186px;}
+    form {
+        width: 90%;
+        max-width: 300px;
+        margin-top: 120px;
+    }
+    body{
+        background-size: 380%;
+        background-repeat: no-repeat;
+        background-position-x: 10%;
+    }
 }
