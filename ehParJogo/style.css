@@ -4,23 +4,19 @@
     box-sizing: border-box;
     font-family: 'Chakra Petch', sans-serif;
     font-weight: 600;
-    
 }
 body{
-    background-color: black;
+    background-color: #050717;
     color: white;
-
 }
 
 #headerContainer{
-    
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    height: 10vh;
     padding: 20px;
-    background-color: #4e1e50;
+    background-color: #531f79;
     font-size: 18px;
 }
 #headerContainer div{
@@ -33,11 +29,11 @@ select{
     width: 84px;
     padding: 8px 12px;
     border-radius: 8px;
-    background-color: #193119;
-    color: #4fee4f;
+    background-color: #050717;
+    color: #ff59fe;
     text-align: center;
-    border: 2px solid #4fee4f;
     outline: none;
+    border: none;
 }
 select option{
     text-align: center;
@@ -54,17 +50,21 @@ header label{
     width: 84px;
     border-radius: 8px;
     outline: none;
-    border: 2px solid #4fee4f;
-    background-color: #193119;
-    color: #4fee4f;
+    border: none;
+    background-color: #050717;
+    color: #ff59fe;
     font-size: 18px;
     text-align: center;
     justify-content: center;
     transition: all 0.2s ease-in-out;
 }
 #btn-container button:hover{
-    background-color: #287228;
+    background-color: #36143f;
     cursor: pointer;
+}
+#numero{
+    font-size: 240px;
+    text-align: center;
 }
 #numero:hover{
     cursor: pointer;
@@ -75,19 +75,16 @@ header label{
     align-items: center;
     width: 50%;
     margin: auto;
-    height: 80vh;
-    font-size: 240px;
-    text-align: center;
-    transform: translate(-34px);
+    height: 77.02vh;
+    margin-right: 360px;
 }
 footer div{
     display: flex;
-    height: 10vh;
-    padding: 24px;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    background-color: #4e1e50;
-    color: #4fee4f;
+    padding: 20px;
+    background-color: #531f79;
+    color: white;
     font-size: 18px;
 }
