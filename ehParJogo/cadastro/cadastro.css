@@ -79,16 +79,18 @@ a:visited{
 }
 
 @media (max-width: 768px) {
-    h1{
-        margin-top: 186px;}
     form {
         width: 90%;
         max-width: 300px;
-        margin-top: 120px;
     }
     body{
         background-size: 380%;
         background-repeat: no-repeat;
         background-position-x: 10%;
+        background-position-y: -24px;
+    }
+    p{
+        font-size: 8px;
+        width: 90%;
     }
 }
