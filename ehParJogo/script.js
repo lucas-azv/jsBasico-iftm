@@ -115,4 +115,5 @@ document.addEventListener("DOMContentLoaded", function() {
     document.getElementById('iniciar').addEventListener('click', gerarNumeroAleatorio);
     document.getElementById('pausar').addEventListener('click', pausarJogo);
     document.getElementById('parar').addEventListener('click', pararJogo);
-});
+}
+);

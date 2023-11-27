@@ -9,32 +9,6 @@ body{
     background-color: #050717;
     color: white;
 }
-
-#headerContainer{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px;
-    background-color: #531f79;
-    font-size: 18px;
-}
-#headerContainer div{
-    display: flex;
-    flex-direction: row;
-    gap: 12px;
-    justify-content: flex-start;
-}
-select{
-    width: 84px;
-    padding: 8px 12px;
-    border-radius: 8px;
-    background-color: #050717;
-    color: #ff59fe;
-    text-align: center;
-    outline: none;
-    border: none;
-}
 select option{
     text-align: center;
 }
@@ -44,47 +18,117 @@ header label{
 #btn-container{
     display: flex;
     justify-content: flex-end;
-}
-#btn-container button{
-    padding: 8px;
-    width: 84px;
-    border-radius: 8px;
-    outline: none;
-    border: none;
-    background-color: #050717;
-    color: #ff59fe;
-    font-size: 18px;
-    text-align: center;
-    justify-content: center;
-    transition: all 0.2s ease-in-out;
+    gap: 12px;
 }
 #btn-container button:hover{
     background-color: #36143f;
     cursor: pointer;
 }
-#numero{
-    font-size: 240px;
-    text-align: center;
-}
 #numero:hover{
     cursor: pointer;
 }
-#numContainer{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 50%;
-    margin: auto;
-    height: 77.02vh;
-    margin-right: 360px;
+
+@media(min-width:300px){
+    #headerContainer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+        background-color: #531f79;
+        gap: 14px;
+        font-size: 34px;
+        height: 18vh;
+    }
+    #btn-container button{
+        padding: 12px;
+        width: 148px;
+        border-radius: 8px;
+        outline: none;
+        border: none;
+        background-color: #050717;
+        color: #ff59fe;
+        font-size: 34px;
+        text-align: center;
+        justify-content: center;
+        transition: all 0.2s ease-in-out;
+    }
+    select{
+        width: 148px;
+        padding: 8px 12px;
+        border-radius: 8px;
+        background-color: #050717;
+        color: #ff59fe;
+        text-align: center;
+        outline: none;
+        border: none;
+        font-size: 34px;
+    }
+    #numero{
+        font-size: 480px;
+        text-align: center;
+    }
+    #numContainer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 72vh;
+    }
+    footer div{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px;
+        background-color: #531f79;
+        color: white;
+        font-size: 34px;
+        height: 10vh;
+    }
 }
-footer div{
+/*@media(min-width:600px){
+    #headerContainer{
+        height: 18vh;
+    }
+    #numContainer{
+        height: 72vh;
+    }
+    footer div{
+        height: 10vh;
+    }
+}*/
+@media(min-width:1000px){
+    #headerContainer{
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 18px;
+        height: 12vh;
+    }
+    #headerContainer div{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px;
-    background-color: #531f79;
-    color: white;
-    font-size: 18px;
+    gap: 12px;
+    justify-content: flex-start;
+}
+    #btn-container button{
+        padding: 12px;
+        width: 84px;
+        font-size: 18px;
+        text-align: center;
+    }
+    select{
+        width: 84px;
+        font-size: 18px;
+    }
+    #numero{
+        font-size: 260px;
+        text-align: center;
+    }
+    #numContainer{
+        height: 76vh;
+    }
+    footer div{
+        font-size: 18px;
+        height: 12vh;
+    }
 }
